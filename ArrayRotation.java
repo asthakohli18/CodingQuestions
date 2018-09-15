@@ -28,6 +28,8 @@ public class ArrayRotation {
      * d = 3 (rotate by 3 elements)
      * GCD -> 4 (basically 4 sets)
      *
+     * Time complexity : O(n)
+     * Auxiliary Space : O(1)
      *
      * */
     private int[] leftRotateArray(int[] arr, int d, int n){
