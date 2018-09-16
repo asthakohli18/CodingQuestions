@@ -1,6 +1,7 @@
 /**
  * Created by kohas02 on 7/3/18.
  */
+//Node of a linked list
 public class Node {
     Node next =null;
     int data;
