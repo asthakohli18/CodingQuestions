@@ -146,6 +146,7 @@ private static boolean isBalanced(Tree tree){
 
     if(Math.abs(leftHeight-rightHeight)<=1 && isBalanced(tree.left) && isBalanced(tree.right))
         return true;
+    return false;
 }
 
 public static void main(String args[]){
